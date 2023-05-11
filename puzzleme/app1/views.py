@@ -27,7 +27,7 @@ def SignupPage(request):
             return redirect('login')
     
 
-    return render (request,'signup.html')
+    return render (request,'index.html')
 
 def LoginPage(request):
     if request.method=='POST':
