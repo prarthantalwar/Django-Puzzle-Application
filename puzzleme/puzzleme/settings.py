@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'web: gunicorn puzzleme.pywsgi'
+WSGI_APPLICATION = 'web: gunicorn wsgi'
 
 
 # Database
