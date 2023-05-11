@@ -1,3 +1,3 @@
 pip install -r requirements.txt
 
-/puzzleme/python manage.py migrate
+# python manage.py migrate
