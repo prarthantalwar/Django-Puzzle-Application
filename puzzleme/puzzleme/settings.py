@@ -76,7 +76,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'puzzleme.wsgi.application'
+WSGI_APPLICATION = ''
 
 CORS_ALLOW_ALL_ORIGINS=True
 
