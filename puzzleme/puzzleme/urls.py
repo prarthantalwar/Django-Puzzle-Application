@@ -18,10 +18,24 @@ from django.contrib import admin
 from django.urls import path
 from app1 import views
 
+
+admin.site.site_header = "PuzzleMe Admin"
+admin.site.site_title = "PuzzleMe Admin Portal"
+admin.site.index_title = "Welcome to PuzzleMe "
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.SignupPage, name='signup'),
     path('login/', views.LoginPage, name='login'),
     path('home/', views.HomePage, name='home'),
-    path('logout/', views.LogoutPage, name='logout')
+    path('logout/', views.LogoutPage, name='logout'),
+    path('c1/', views.Clue1Page, name='clue1'),
+    path('clu2/', views.Clue2Page, name='clue2'),
+    path('cl3/', views.Clue3Page, name='clue3'),
+    path('cluu4/', views.Clue4Page, name='clue4'),
+    path('cl5/', views.Clue5Page, name='clue5'),
+    path('dd11/', views.Dead1Page, name='dead1'),
+    path('dud2/', views.Dead2Page, name='dead2'),
+    path('win_ner/', views.WinnerPage, name='winner')
+
 ]
