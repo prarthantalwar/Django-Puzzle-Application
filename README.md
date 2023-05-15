@@ -33,6 +33,8 @@ The admin dashboard can be accessed with the following credentials:
 - Username: prt@gmail.com
 - Password: talwar
 
+Go to /admin to access the admin panel.
+
 ## Soft Skill Assessment
 
 The following are the soft skills assessed in order of the clues:
