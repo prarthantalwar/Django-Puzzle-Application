@@ -15,7 +15,7 @@ This is an interactive puzzle application that aims to assess the soft skills of
 - A dashboard for the admin where the progress of all the users can be tracked & analyzed
 - User analytics (e.g., time taken by each user for every step, solution accuracy, etc.) depending on the puzzle should be stored and shown in the admin dashboard
 - Data analysis using different graphs or tables
-- User Leaderboard
+- User Leaderboard: Can be accessed only by the admin
 
 
 ## Setup
@@ -30,7 +30,7 @@ To set up the project, follow these steps:
 
 The admin dashboard can be accessed with the following credentials:
 
-- Username: prt
+- Username: prt@gmail.com
 - Password: talwar
 
 ## Soft Skill Assessment
