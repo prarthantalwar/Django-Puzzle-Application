@@ -36,6 +36,7 @@ urlpatterns = [
     path('cl5/', views.Clue5Page, name='clue5'),
     path('dd11/', views.Dead1Page, name='dead1'),
     path('dud2/', views.Dead2Page, name='dead2'),
-    path('win_ner/', views.WinnerPage, name='winner')
+    path('win_ner/', views.WinnerPage, name='winner'),
+    path('table/', views.analytics, name='analytics')
 
 ]

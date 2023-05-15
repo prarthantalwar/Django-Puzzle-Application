@@ -3,6 +3,7 @@ from django.contrib.auth.models import User
 from django.contrib.auth import authenticate,login, logout
 from django.contrib.auth.decorators import login_required
 from django.contrib import messages
+from django.core import serializers
 from app1.models import Player
 
 
@@ -194,3 +195,12 @@ def GetScore(name, player_list):
             score = player.score
             break
     return score
+
+# Fetching analytics and tables
+def analytics(request):
+    data = serializers.serialize("python",Player.objects.order_by('score'))
+    
+    return render(request,'table.html',{'data':data})
+
+
+
